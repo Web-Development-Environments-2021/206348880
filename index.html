@@ -6,8 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Gal, Agasi, html, web, covid-19" />
     <meta name="description" content="first lab html" />
+
+    <!-- emoji -->
+    <link rel="stylesheet" href="emojionearea.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="emojionearea.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/e211f6a94b.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abhaya Libre"
+    />
   </head>
+
   <body>
     <div id="fb-root"></div>
     <script
@@ -48,7 +68,10 @@
 
     <section id="main">
       <section id="about" class="section">
-        <h2>About Me</h2>
+        <h2>
+          About Me
+          <i class="fas fa-user-circle"></i>
+        </h2>
         <div id="containerabout">
           <div class="aboutitem">
             A little bit history...
@@ -66,7 +89,13 @@
       </section>
 
       <section id="photos" class="section">
-        <h2>My Photos</h2>
+        <h2>
+          My Photos
+          <!-- <i class="fas fa-camera"></i> -->
+          <i class="fas fa-camera-retro"></i>
+          &#128248;
+        </h2>
+
         <!-- Container for the image gallery -->
         <div class="container">
           <!-- Full-width images with number text -->
@@ -170,7 +199,11 @@
       </section>
 
       <section id="playlist" class="section">
-        <h2>My Playlist</h2>
+        <h2>
+          My Playlist
+          <i class="fab fa-youtube"></i>
+          ▶️
+        </h2>
         <iframe
           width="560"
           height="315"
@@ -182,7 +215,11 @@
       </section>
 
       <section id="like" class="section">
-        <h2>Give Me a Like</h2>
+        <h2>
+          Give Me a Like
+          <i class="far fa-thumbs-up"></i>
+          👍
+        </h2>
         <div
           class="fb-like"
           data-href="https://web-development-environments-2021.github.io/assignment1-GalAgas/"
@@ -200,49 +237,95 @@
       </section>
 
       <section id="spa" class="section">
-        <h2>ans</h2>
+        <h2>Ans</h2>
+        ✏️
+        <i class="fab fa-internet-explorer"></i>
+        <i class="fab fa-chrome"></i>
+        <i class="fas fa-globe"></i>
+        <i class="fas fa-globe-americas"></i>
+        <i class="fas fa-cloud-download-alt"></i>
+        <h3>Question 1 - Main Differences between Web1, Web2 and Web3</h3>
+        <ol>
+          <li>
+            Web1 considered as the "read-only" web, Web2 considered as the
+            "read-write" web and Web3 is kind of "read-write-execute" web. This
+            principle expresses the user's growing interaction with the web
+            according to it's different versions.
+          </li>
+          <li>
+            The popularity grew dramaticly over the years - from Million of
+            users (Web1), through Billion of users (Web2) and Trillion of users
+            (Web3).
+          </li>
+          <li>
+            Web1 main goal was connect information, Web2 succeeded to connect
+            people and Web3 connect knowledge (Web of DATA). An example of it's
+            ability to connect people is the establishment of blloging and
+            social network that started in Web2 (Facebook, Twiter).In addition,
+            the collaborative knowledge approach and media sharing reflected
+            through Wikipedia, StackOverFlow and Youtube.
+          </li>
+          <li>
+            ################ Web3 is also known as the Semantic Web - using AI
+            tools the web learns the user and provides him relevant informatiom
+            and personalaized experience.
+          </li>
+        </ol>
       </section>
 
       <section id="contact" class="section">
         <h2>Contact Me</h2>
-        <div id="formContainer">
-          <form method="POST" action="">
-            <label for="firstName">First Name</label>
-            <input
-              type="text"
-              name="firstName"
-              placeholder="Your Name"
-              required
-            />
+        <form
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbxRhwYBvpc4DRjnsZThCmYX-KeJFWiE5AgadU7r/exec"
+        >
+          <i class="fas fa-user-alt"></i>
+          <label for="fullName">Full Name</label>
+          <input
+            id="Name"
+            type="text"
+            name="firstName"
+            placeholder="Your Name"
+            required
+          />
 
-            <label for="lastName">Last Name</label>
-            <input
-              type="text"
-              name="lastName"
-              placeholder="Your Last Name"
-              required
-            />
+          <i class="fa fa-envelope icon"></i>
+          ✉️
+          <label for="mail">e-mail</label>
+          <input
+            type="text"
+            id="e-mail"
+            name="email"
+            placeholder="Your e-mail"
+            required
+          />
 
-            <label for="mail">e-mail</label>
-            <input
-              type="text"
-              name="email"
-              placeholder="Your e-mail"
-              required
-            />
+          <i class="fas fa-marker"></i>
+          📝
+          <label for="message" aria-required="true">Message</label>
+          <textarea
+            name="message"
+            id="Message"
+            cols="30"
+            rows="10"
+            placeholder="Write To Us"
+          ></textarea>
 
-            <label for="message" aria-required="true">Message</label>
-            <textarea
-              name="message"
-              id="messge"
-              cols="30"
-              rows="10"
-              placeholder="Write To Us"
-            ></textarea>
+          <script>
+            $(document).ready(function () {
+              $("#Message").emojioneArea({
+                pickerPosition: "right",
+              });
+            });
+          </script>
 
-            <input type="submit" name="" id="" value="Submit" />
-          </form>
-        </div>
+          <button type="submit" id="submit">
+            Submit &nbsp;
+            <i class="fas fa-arrow-alt-circle-right"></i>
+          </button>
+
+          <!-- <i class="far fa-arrow-alt-circle-right"></i> -->
+        </form>
       </section>
     </section>
 
