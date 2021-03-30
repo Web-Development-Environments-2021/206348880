@@ -16,15 +16,17 @@
     ></script>
     <script src="emojionearea.min.js"></script>
 
+    <!--Icons-->
     <script
       src="https://kit.fontawesome.com/e211f6a94b.js"
       crossorigin="anonymous"
     ></script>
 
+    <!--Google's fonts-->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Abhaya Libre"
+      href="https://fonts.googleapis.com/css?family=Thasadith|Ubuntu|Actor|Abril Fatface|Poppins"
     />
   </head>
 
@@ -66,267 +68,326 @@
       </ul>
     </header>
 
-    <section id="main">
-      <section id="about" class="section">
-        <h2>
-          About Me
-          <i class="fas fa-user-circle"></i>
-        </h2>
-        <div id="containerabout">
-          <div class="aboutitem">
-            A little bit history...
-            <p>***</p>
+    <section id="about" class="section">
+      <h2>
+        About Me
+        <i class="fas fa-user-circle"></i>
+      </h2>
+      <div id="containerabout">
+        <div class="aboutitem">
+          A little bit history...
+          <p>***</p>
+        </div>
+        <div class="aboutitem">
+          My Hobbies:
+          <p>***</p>
+        </div>
+        <div class="aboutitem">
+          Favourite character:
+          <p>***</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="section">
+      <h2>
+        My Photos
+        <!-- <i class="fas fa-camera"></i> -->
+        <i class="fas fa-camera-retro"></i>
+        &#128248;
+      </h2>
+
+      <!-- Container for the image gallery -->
+      <div class="container">
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="media/1.jpeg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="media/2.jpeg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="media/3.jpeg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="media/4.jpeg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="media/5.jpeg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="media/6.jpeg" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="media/1.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="pic 1"
+            />
           </div>
-          <div class="aboutitem">
-            My Hobbies:
-            <p>***</p>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="media/2.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="pic 2"
+            />
           </div>
-          <div class="aboutitem">
-            Favourite character:
-            <p>***</p>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="media/3.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="pic 3"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="media/4.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="pic 4"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="media/5.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="pic 5"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="media/6.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="pic 6"
+            />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="photos" class="section">
-        <h2>
-          My Photos
-          <!-- <i class="fas fa-camera"></i> -->
-          <i class="fas fa-camera-retro"></i>
-          &#128248;
-        </h2>
+    <section id="playlist" class="section">
+      <h2>
+        My Playlist
+        <i class="fab fa-youtube"></i>
+        ▶️
+      </h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/lAmuEnePHHo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
 
-        <!-- Container for the image gallery -->
-        <div class="container">
-          <!-- Full-width images with number text -->
-          <div class="mySlides">
-            <div class="numbertext">1 / 6</div>
-            <img src="media/1.jpeg" />
-          </div>
+    <section id="like" class="section">
+      <h2>
+        Give Me a Like
+        <i class="far fa-thumbs-up"></i>
+        👍
+      </h2>
+      <div
+        class="fb-like"
+        data-href="https://web-development-environments-2021.github.io/assignment1-GalAgas/"
+        data-width=""
+        data-layout="box_count"
+        data-action="like"
+        data-size="large"
+        data-share="true"
+      ></div>
+    </section>
 
-          <div class="mySlides">
-            <div class="numbertext">2 / 6</div>
-            <img src="media/2.jpeg" />
-          </div>
+    <section id="qrcoder" class="section">
+      <h2>Scan My CODE</h2>
+      <img src="./media/QR.png" alt="QR image" />
+    </section>
 
-          <div class="mySlides">
-            <div class="numbertext">3 / 6</div>
-            <img src="media/3.jpeg" />
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">4 / 6</div>
-            <img src="media/4.jpeg" />
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 6</div>
-            <img src="media/5.jpeg" />
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">6 / 6</div>
-            <img src="media/6.jpeg" />
-          </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-          <!-- Image text -->
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-
-          <!-- Thumbnail images -->
-          <div class="row">
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="media/1.jpeg"
-                style="width: 100%"
-                onclick="currentSlide(1)"
-                alt="pic 1"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="media/2.jpeg"
-                style="width: 100%"
-                onclick="currentSlide(2)"
-                alt="pic 2"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="media/3.jpeg"
-                style="width: 100%"
-                onclick="currentSlide(3)"
-                alt="pic 3"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="media/4.jpeg"
-                style="width: 100%"
-                onclick="currentSlide(4)"
-                alt="pic 4"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="media/5.jpeg"
-                style="width: 100%"
-                onclick="currentSlide(5)"
-                alt="pic 5"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="media/6.jpeg"
-                style="width: 100%"
-                onclick="currentSlide(6)"
-                alt="pic 6"
-              />
-            </div>
-          </div>
+    <section id="spa" class="section">
+      <h2>Ans ✏️
+      <i class="fas fa-cloud-download-alt"></i>
+      </h2>
+      <h3>Question 1 - Main Differences between Web1, Web2 & Web3</h3>
+      <div id="ansContainer">
+        <div class="Q1">
+          <h3>WEB 1.0</h3>
+          <p>
+            <i class="fab fa-internet-explorer"></i>
+            Considered as the "read-only" web
+            <br />
+            <br />
+            <br />
+            <i class="fas fa-globe"></i>
+            Million of users
+            <br />
+            <br />
+            <i class="fab fa-chrome"></i>
+            Connect information - The Web
+            <br />
+            <br />
+            <i class="fas fa-globe-americas"></i>
+            Static connect - one way interaction
+          </p>
         </div>
-      </section>
+        <div class="Q1">
+          <h3>WEB 2.0</h3>
+          <p>
+            <i class="fab fa-internet-explorer"></i>
+            Considered as the "read-write" web
+            <br />
+            <br />
+            <br />
+            <i class="fas fa-globe"></i>
+            Billion of users
+            <br />
+            <br />
+            <i class="fab fa-chrome"></i>
+            Connect people - Social Web (Blogging, Facebook, Twiter)
+            <br />
+            <br />
+            <i class="fas fa-globe-americas"></i>
+            Two way communication & collaborative approach (Media sharing
+            Wikipedia, StackOverFlow, Youtube)
+          </p>
+        </div>
+        <div class="Q1">
+          <h3>WEB 3.0</h3>
+          <p>
+            <i class="fab fa-internet-explorer"></i>
+            Considered as the "read-write-execute" web
+            <br />
+            <br />
+            <i class="fas fa-globe"></i>
+            Trillion of users
+            <br />
+            <br />
+            <i class="fab fa-chrome"></i>
+            Connect knowledge - Web of DATA, Semantic web
+            <br />
+            <br />
+            <i class="fas fa-globe-americas"></i>
+            Personalaized experience - using AI tools the web learns the user
+            and provides him relevant informatiom and reccomendations
+          </p>
+        </div>
+      </div>
+      <h3>Question 2 - Query Search Use Case: Medication Side Effects</h3>
+      <div id="ansContainer">
+        <div class="Q2">
+          <h3>WEB 1.0</h3>
+          <p>
+            The search will probably not return the ideal results for the user.
+            In order to get better result user should enter a specific URL. Most
+            of the results are documents, defenitions.
+          </p>
+        </div>
+        <div class="Q2">
+          <h3>WEB 2.0</h3>
+          <p>
+            The user has more tools that can help him find better result like
+            Wikipedia, Youtube. He can also try searching information in Facebook's
+            post and Bllogs. We can see user's growing interaction with the web according to it's different versions.
+          </p>
+        </div>
+        <div class="Q2">
+          <h3>WEB 3.0</h3>
+          <p>
+            Search engines have already improved and the user will be able to get
+            much more relevant results thanks to AI algorithms. He will probably get
+            some related sites, articles, videos, posts and future reccomandations
+            containing smantic key words.
+          </p>
+        </div>
+    </section>
 
-      <section id="playlist" class="section">
-        <h2>
-          My Playlist
-          <i class="fab fa-youtube"></i>
-          ▶️
-        </h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/lAmuEnePHHo"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </section>
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form
+        action="mailto: galagas@post.bgu.ac.il"
+        method="POST"
+        enctype="text/plain"
+      >
+        <i class="fas fa-user-alt"></i>
+        <label for="fullName">Full Name</label>
+        <input
+          id="Name"
+          type="text"
+          name="firstName"
+          placeholder="Your Name"
+          required
+        />
 
-      <section id="like" class="section">
-        <h2>
-          Give Me a Like
-          <i class="far fa-thumbs-up"></i>
-          👍
-        </h2>
-        <div
-          class="fb-like"
-          data-href="https://web-development-environments-2021.github.io/assignment1-GalAgas/"
-          data-width=""
-          data-layout="box_count"
-          data-action="like"
-          data-size="large"
-          data-share="true"
-        ></div>
-      </section>
+        <i class="fa fa-envelope icon"></i>
+        ✉️
+        <label for="mail">e-mail</label>
+        <input
+          type="text"
+          id="e-mail"
+          name="email"
+          placeholder="Your e-mail"
+          required
+        />
 
-      <section id="qrcoder" class="section">
-        <h2>Scan My CODE</h2>
-        <img src="./media/QR.png" alt="QR image" />
-      </section>
+        <i class="fas fa-marker"></i>
+        📝
+        <label for="message" aria-required="true">Message</label>
+        <textarea
+          name="message"
+          id="Message"
+          cols="30"
+          rows="10"
+          placeholder="Write To Us"
+        ></textarea>
 
-      <section id="spa" class="section">
-        <h2>Ans</h2>
-        ✏️
-        <i class="fab fa-internet-explorer"></i>
-        <i class="fab fa-chrome"></i>
-        <i class="fas fa-globe"></i>
-        <i class="fas fa-globe-americas"></i>
-        <i class="fas fa-cloud-download-alt"></i>
-        <h3>Question 1 - Main Differences between Web1, Web2 and Web3</h3>
-        <ol>
-          <li>
-            Web1 considered as the "read-only" web, Web2 considered as the
-            "read-write" web and Web3 is kind of "read-write-execute" web. This
-            principle expresses the user's growing interaction with the web
-            according to it's different versions.
-          </li>
-          <li>
-            The popularity grew dramaticly over the years - from Million of
-            users (Web1), through Billion of users (Web2) and Trillion of users
-            (Web3).
-          </li>
-          <li>
-            Web1 main goal was connect information, Web2 succeeded to connect
-            people and Web3 connect knowledge (Web of DATA). An example of it's
-            ability to connect people is the establishment of blloging and
-            social network that started in Web2 (Facebook, Twiter).In addition,
-            the collaborative knowledge approach and media sharing reflected
-            through Wikipedia, StackOverFlow and Youtube.
-          </li>
-          <li>
-            ################ Web3 is also known as the Semantic Web - using AI
-            tools the web learns the user and provides him relevant informatiom
-            and personalaized experience.
-          </li>
-        </ol>
-      </section>
-
-      <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <form
-          method="POST"
-          action="https://script.google.com/macros/s/AKfycbxRhwYBvpc4DRjnsZThCmYX-KeJFWiE5AgadU7r/exec"
-        >
-          <i class="fas fa-user-alt"></i>
-          <label for="fullName">Full Name</label>
-          <input
-            id="Name"
-            type="text"
-            name="firstName"
-            placeholder="Your Name"
-            required
-          />
-
-          <i class="fa fa-envelope icon"></i>
-          ✉️
-          <label for="mail">e-mail</label>
-          <input
-            type="text"
-            id="e-mail"
-            name="email"
-            placeholder="Your e-mail"
-            required
-          />
-
-          <i class="fas fa-marker"></i>
-          📝
-          <label for="message" aria-required="true">Message</label>
-          <textarea
-            name="message"
-            id="Message"
-            cols="30"
-            rows="10"
-            placeholder="Write To Us"
-          ></textarea>
-
-          <script>
-            $(document).ready(function () {
-              $("#Message").emojioneArea({
-                pickerPosition: "right",
-              });
+        <script>
+          $(document).ready(function () {
+            $("#Message").emojioneArea({
+              pickerPosition: "right",
             });
-          </script>
+          });
+        </script>
 
-          <button type="submit" id="submit">
-            Submit &nbsp;
-            <i class="fas fa-arrow-alt-circle-right"></i>
-          </button>
+        <button type="submit" id="submit" value="submit">
+          Submit &nbsp;
+          <i class="fas fa-arrow-alt-circle-right"></i>
+        </button>
 
-          <!-- <i class="far fa-arrow-alt-circle-right"></i> -->
-        </form>
-      </section>
+        <!-- <i class="far fa-arrow-alt-circle-right"></i> -->
+      </form>
     </section>
 
     <script src="index.js"></script>

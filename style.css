@@ -3,7 +3,8 @@
   overflow: hidden;
   width: 99%;
   top: 10px;
-  background-color: rgb(233, 129, 179);
+  /* background-color: rgb(255, 147, 199); */
+  background-image: url("media/menu2.jpg");
   border-radius: 50px 50px;
   border: 3px solid rgb(245, 240, 243);
   margin-bottom: 200px;
@@ -12,7 +13,9 @@
 .menubar a {
   float: left;
   display: block;
-  color: rgb(255, 254, 254);
+  /* color: rgb(255, 254, 254); */
+  color: rgb(0, 0, 0);
+
   text-align: center;
   /* padding-right: 16px; */
   /* padding: 35px 16px; */
@@ -43,14 +46,11 @@
   margin-top: 10px;
 }
 
-/* #main {
-  padding-top: 200px;
-  width: auto;
-  text-align: center;
-} */
-
 body {
-  background-color: rgb(248, 204, 233);
+  /* background-color: rgb(248, 204, 233); */
+  /* background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png"); */
+  /* background-image: url("media/s.jpg"); */
+  background-image: url("media/m.jpg");
 }
 
 .section {
@@ -64,28 +64,60 @@ body {
   border-color: rgb(255, 255, 255);
   border-width: 10px;
   border-radius: 30px;
-  background-color: rgb(255, 136, 195);
+  background-color: rgb(255, 172, 213);
+
   padding-bottom: 20px;
 }
 
-#containerabout {
+#ansContainer {
   display: flex;
   justify-content: space-between;
 }
 
-.aboutitem {
+#spa {
+  width: 90%;
+}
+
+.Q1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-family: "Poppins"; */
   font-weight: bold;
+  font-size: 18px;
   border: solid white;
   border-radius: 15px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 330px;
   margin: auto;
+  text-align: left;
+  background-image: url("media/m.jpg");
+}
+
+.Q2 {
+  font-family: "Actor";
+  /* font-weight: bold; */
+  font-size: 18px;
+  border: solid white;
+  border-radius: 15px;
+  width: 350px;
+  height: 230px;
+  margin: auto;
+  text-align: left;
+  background-image: url("media/m.jpg");
+}
+
+p {
+  padding-left: 20px;
 }
 
 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  /* font-family: "Ubuntu"; */
+  font-family: "Abril Fatface";
   font-weight: bold;
+}
+
+h3 {
+  text-align: center;
 }
 
 * {
@@ -194,6 +226,22 @@ h2 {
   font-size: 40px;
 } */
 
+#spa {
+  /* font-family: "Thasadith"; */
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#like {
+  /* background-image: url("media/l.png"); */
+  background-image: url("media/f.png");
+  width: 309px;
+  height: 307px;
+  border: none;
+  padding: 50px;
+}
+
 form {
   width: 50%;
   padding: 20px;
@@ -215,7 +263,8 @@ textarea {
   box-sizing: border-box;
   resize: vertical;
   padding: 12px;
-  font-family: "Abhaya Libre";
+  /* font-family: "Abhaya Libre"; */
+  font-family: "Actor";
   font-size: 20px;
 }
 
@@ -227,8 +276,18 @@ textarea {
   cursor: pointer;
   margin: 0 auto;
   display: flex;
-  font-family: "Abhaya Libre";
+  font-family: "Actor";
   font-size: 28px;
   font-weight: bold;
   margin-top: 25px;
+}
+
+#submit:hover {
+  /* transition-timing-function: ease-out;
+  transition-duration: 1s;
+  transition-property: transform;
+  transform: scaleX(0);
+  transform-origin: 0 50%; */
+  /* background-color: rgb(224, 12, 154); */
+  background-image: url("media/b.jpg");
 }
