@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Gal, Agasi, html, web, covid-19" />
+    <meta name="keywords" content="Gal, Agasi, html, web" />
     <meta name="description" content="first lab html" />
 
     <!-- emoji -->
@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Thasadith|Ubuntu|Actor|Abril Fatface|Poppins"
+      href="https://fonts.googleapis.com/css?family=Abril Fatface|Exo"
     />
   </head>
 
@@ -41,169 +41,89 @@
     ></script>
 
     <header class="menubar" id="menubar">
-      <img src="media/3.jpeg" alt="logo picture" id="logopic" />
+      <img src="media/logo.JPG" alt="logo picture" id="logopic" />
 
       <ul class="menubarlist">
         <li class="limenu">
-          <a href="#about">About Me</a>
+          <a href="#about">About Me 🙋‍♀️</a>
         </li>
         <li class="limenu">
-          <a href="#photos">My Photos</a>
+          <a href="#photos">My Photos &#128248; </a>
         </li>
         <li class="limenu">
-          <a href="#playlist">My Playlist</a>
+          <a href="#playlist">My Playlist ▶️ </a>
         </li>
         <li class="limenu">
-          <a href="#like">Like</a>
+          <a href="#like">Like 👍</a>
         </li>
         <li class="limenu">
-          <a href="#qrcoder">QR code</a>
+          <a href="#qrcoder">QR code 📱</a>
         </li>
         <li class="limenu">
-          <a href="#spa">Q&A</a>
+          <a href="#spa">Q&A ✏️</a>
         </li>
         <li class="limenu">
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact ✉️ </a>
         </li>
       </ul>
     </header>
 
     <section id="about" class="section">
-      <h2>
-        About Me
-        <i class="fas fa-user-circle"></i>
-      </h2>
-      <div id="containerabout">
-        <div class="aboutitem">
-          A little bit history...
-          <p>***</p>
-        </div>
-        <div class="aboutitem">
-          My Hobbies:
-          <p>***</p>
-        </div>
-        <div class="aboutitem">
-          Favourite character:
-          <p>***</p>
-        </div>
+      <div class="aboutsAndSpaContainer">
+        <h2>
+          About Me
+          <i class="fas fa-user-circle"></i>
+          <br />
+        </h2>
+        <h3>⏳A little bit of history ⏳</h3>
+        <p>
+          My name is Orly Abisdris and I was born in Haifa in 1960. I have three
+          brothers and one sister. I have two daughters.<br />
+          I serverd in the army in human resources office of Warriors battalion
+          and after that as a head of the institute of physiotherapy at a
+          military convalescent home.<br />
+          I have a bachelor's degree in sociology from Haifa University and a
+          Master's degree Public Administration.<br />
+          I worked for many years in the field of human resources in high-tech
+          companies and today I am working in Levinstein Hospital as a service
+          and patient experience manager.
+        </p>
+        <h3>❤️My Hobbies❤️</h3>
+        <p>
+          I like to go for walks in nature, listen to good music, cook delicious
+          food, hang out with family and friends and travel in the world. My
+          favorite place is the beach!
+        </p>
       </div>
     </section>
 
     <section id="photos" class="section">
       <h2>
         My Photos
-        <!-- <i class="fas fa-camera"></i> -->
         <i class="fas fa-camera-retro"></i>
-        &#128248;
       </h2>
-
-      <!-- Container for the image gallery -->
-      <div class="container">
-        <!-- Full-width images with number text -->
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-          <img src="media/1.jpeg" />
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-          <img src="media/2.jpeg" />
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-          <img src="media/3.jpeg" />
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-          <img src="media/4.jpeg" />
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-          <img src="media/5.jpeg" />
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-          <img src="media/6.jpeg" />
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-
-        <!-- Thumbnail images -->
-        <div class="row">
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="media/1.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(1)"
-              alt="pic 1"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="media/2.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(2)"
-              alt="pic 2"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="media/3.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(3)"
-              alt="pic 3"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="media/4.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(4)"
-              alt="pic 4"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="media/5.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(5)"
-              alt="pic 5"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="media/6.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(6)"
-              alt="pic 6"
-            />
-          </div>
-        </div>
-      </div>
+      <img class="imgs" src="media/1.jpg" />
+      <img class="imgs" src="media/2.jpg" />
+      <img class="imgs" src="media/3.jpg" />
+      <img class="imgs" src="media/4.jpg" />
+      <img class="imgs" src="media/5.jpg" />
+      <img class="imgs" src="media/6.jpg" />
+      <img class="imgs" src="media/7.jpg" />
+      <img class="imgs" src="media/8.jpg" />
+      <img class="imgs" src="media/9.jpg" />
+      <br />
+      <img class="imgs" src="media/20.jpg" style="width: 50%; height: 50%" />
+      <img class="imgs" src="media/18.jpg" style="width: 50%; height: 50%" />
+      <img class="imgs" src="media/19.jpg" style="width: 20%; height: 20%" />
+      <img class="imgs" src="media/23.jpg" style="width: 40%; height: 40%" />
+      <img class="imgs" src="media/24.jpg" style="width: 40%; height: 40%" />
+      <img class="imgs" src="media/25.jpg" style="width: 40%; height: 40%" />
     </section>
 
     <section id="playlist" class="section">
       <h2>
         My Playlist
         <i class="fab fa-youtube"></i>
-        ▶️
       </h2>
       <iframe
         width="560"
@@ -219,7 +139,6 @@
       <h2>
         Give Me a Like
         <i class="far fa-thumbs-up"></i>
-        👍
       </h2>
       <div
         class="fb-like"
@@ -233,114 +152,131 @@
     </section>
 
     <section id="qrcoder" class="section">
-      <h2>Scan My CODE</h2>
-      <img src="./media/QR.png" alt="QR image" />
+      <h2>
+        Scan My CODE
+        <i class="fas fa-mobile-alt"></i>
+      </h2>
+      <img src="media/QR.png" alt="QR image" />
     </section>
 
     <section id="spa" class="section">
-      <h2>Ans ✏️
-      <i class="fas fa-cloud-download-alt"></i>
-      </h2>
-      <h3>Question 1 - Main Differences between Web1, Web2 & Web3</h3>
-      <div id="ansContainer">
-        <div class="Q1">
-          <h3>WEB 1.0</h3>
-          <p>
-            <i class="fab fa-internet-explorer"></i>
-            Considered as the "read-only" web
-            <br />
-            <br />
-            <br />
-            <i class="fas fa-globe"></i>
-            Million of users
-            <br />
-            <br />
-            <i class="fab fa-chrome"></i>
-            Connect information - The Web
-            <br />
-            <br />
-            <i class="fas fa-globe-americas"></i>
-            Static connect - one way interaction
-          </p>
+      <div class="aboutsAndSpaContainer">
+        <h2>
+          Ans
+          <i class="fas fa-cloud-download-alt"></i>
+        </h2>
+        <h3>
+          Question 1 - Main Differences between Web 1.0, Web 2.0 & Web 3.0
+        </h3>
+        <div id="ansContainer">
+          <div class="Q1">
+            <h3>WEB 1.0</h3>
+            <p>
+              <i class="fab fa-internet-explorer"></i>
+              The "read-only" web
+              <br />
+              <br />
+              <i class="fas fa-globe"></i>
+              Millions of users
+              <br />
+              <br />
+              <i class="fab fa-chrome"></i>
+              Connect information - The Web
+              <br />
+              <br />
+              <br />
+              <i class="fas fa-globe-americas"></i>
+              Static connect - one way interaction
+            </p>
+          </div>
+          <div class="Q1">
+            <h3>WEB 2.0</h3>
+            <p>
+              <i class="fab fa-internet-explorer"></i>
+              The "read-write" web
+              <br />
+              <br />
+              <i class="fas fa-globe"></i>
+              Billions of users
+              <br />
+              <br />
+              <i class="fab fa-chrome"></i>
+              Connect people - Social Web (Blogging, Facebook, Twiter)
+              <br />
+              <br />
+              <i class="fas fa-globe-americas"></i>
+              Two way communication & collaborative approach (Media sharing
+              Wikipedia, StackOverFlow, Youtube)
+            </p>
+          </div>
+          <div class="Q1">
+            <h3>WEB 3.0</h3>
+            <p>
+              <i class="fab fa-internet-explorer"></i>
+              The "read-write-execute" web
+              <br />
+              <br />
+              <i class="fas fa-globe"></i>
+              Trillions of users
+              <br />
+              <br />
+              <i class="fab fa-chrome"></i>
+              Connect knowledge - Web of DATA, Semantic web
+              <br />
+              <br />
+              <i class="fas fa-globe-americas"></i>
+              Personalaized experience - using AI tools the web learns the user
+              and provides him relevant informatiom and reccomendations
+            </p>
+          </div>
         </div>
-        <div class="Q1">
-          <h3>WEB 2.0</h3>
-          <p>
-            <i class="fab fa-internet-explorer"></i>
-            Considered as the "read-write" web
-            <br />
-            <br />
-            <br />
-            <i class="fas fa-globe"></i>
-            Billion of users
-            <br />
-            <br />
-            <i class="fab fa-chrome"></i>
-            Connect people - Social Web (Blogging, Facebook, Twiter)
-            <br />
-            <br />
-            <i class="fas fa-globe-americas"></i>
-            Two way communication & collaborative approach (Media sharing
-            Wikipedia, StackOverFlow, Youtube)
-          </p>
-        </div>
-        <div class="Q1">
-          <h3>WEB 3.0</h3>
-          <p>
-            <i class="fab fa-internet-explorer"></i>
-            Considered as the "read-write-execute" web
-            <br />
-            <br />
-            <i class="fas fa-globe"></i>
-            Trillion of users
-            <br />
-            <br />
-            <i class="fab fa-chrome"></i>
-            Connect knowledge - Web of DATA, Semantic web
-            <br />
-            <br />
-            <i class="fas fa-globe-americas"></i>
-            Personalaized experience - using AI tools the web learns the user
-            and provides him relevant informatiom and reccomendations
-          </p>
+
+        <h3>Question 2 - Query Search Use Case: Paracetamol Side Effects</h3>
+        <div id="ansContainer">
+          <div class="Q2">
+            <h3>WEB 1.0</h3>
+            <p>
+              The search will probably not return the ideal results for the
+              user. In order to get better result the user should enter a
+              specific URL. Most of the results are documents or defenitions
+              from an encyclopedia.
+            </p>
+          </div>
+          <div class="Q2">
+            <h3>WEB 2.0</h3>
+            <p>
+              The user has more tools that can help him find better results like
+              Wikipedia and Youtube, tagging. In addition to documents, there
+              are different types of information like Facebook's posts, Bllogs,
+              forums and video. We can see user's growing interaction with the
+              web according to it's different versions.
+            </p>
+          </div>
+          <div class="Q2">
+            <h3>WEB 3.0</h3>
+            <p>
+              Search engines have already improved and the user will be able to
+              get much more relevant results thanks to AI algorithms. After this
+              search the user will probably get some related sites, articles,
+              videos, posts and future reccomandations containing smantic key
+              words, like similar medication's side effects.
+            </p>
+          </div>
         </div>
       </div>
-      <h3>Question 2 - Query Search Use Case: Medication Side Effects</h3>
-      <div id="ansContainer">
-        <div class="Q2">
-          <h3>WEB 1.0</h3>
-          <p>
-            The search will probably not return the ideal results for the user.
-            In order to get better result user should enter a specific URL. Most
-            of the results are documents, defenitions.
-          </p>
-        </div>
-        <div class="Q2">
-          <h3>WEB 2.0</h3>
-          <p>
-            The user has more tools that can help him find better result like
-            Wikipedia, Youtube. He can also try searching information in Facebook's
-            post and Bllogs. We can see user's growing interaction with the web according to it's different versions.
-          </p>
-        </div>
-        <div class="Q2">
-          <h3>WEB 3.0</h3>
-          <p>
-            Search engines have already improved and the user will be able to get
-            much more relevant results thanks to AI algorithms. He will probably get
-            some related sites, articles, videos, posts and future reccomandations
-            containing smantic key words.
-          </p>
-        </div>
     </section>
 
     <section id="contact" class="section">
-      <h2>Contact Me</h2>
       <form
         action="mailto: galagas@post.bgu.ac.il"
         method="POST"
         enctype="text/plain"
       >
+        <h2>
+          Contact Me
+          <i class="fas fa-paper-plane"></i>
+        </h2>
+
         <i class="fas fa-user-alt"></i>
         <label for="fullName">Full Name</label>
         <input
@@ -352,7 +288,6 @@
         />
 
         <i class="fa fa-envelope icon"></i>
-        ✉️
         <label for="mail">e-mail</label>
         <input
           type="text"
@@ -363,11 +298,10 @@
         />
 
         <i class="fas fa-marker"></i>
-        📝
         <label for="message" aria-required="true">Message</label>
         <textarea
           name="message"
-          id="Message"
+          id="message"
           cols="30"
           rows="10"
           placeholder="Write To Us"
@@ -375,7 +309,7 @@
 
         <script>
           $(document).ready(function () {
-            $("#Message").emojioneArea({
+            $("#message").emojioneArea({
               pickerPosition: "right",
             });
           });
