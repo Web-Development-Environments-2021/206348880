@@ -25,6 +25,12 @@
   display: inline;
 }
 
+.limenu a:hover {
+  /* color: rgb(255, 55, 131); */
+  color: rgb(73, 73, 73);
+  font-size: 24px;
+}
+
 .menubarlist {
   margin-left: 100px;
   margin-top: 30px;
