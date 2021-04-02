@@ -10,7 +10,7 @@ Gal Agasi
 
 ## Link to github.io
 You chan click [here](https://web-development-environments-2021.github.io/assignment1-GalAgas/) to see my website.
-Enjoy :)
+Enjoy :heart:
 
 ## Info
 :ok_hand: Fixed menu with hover effects
