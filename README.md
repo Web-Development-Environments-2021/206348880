@@ -9,7 +9,7 @@ Gal Agasi
 206348880
 
 ## Link to github.io
-You chan click [here](https://web-development-environments-2021.github.io/assignment1-GalAgas/) to see my website.
+You can click [here](https://web-development-environments-2021.github.io/assignment1-GalAgas/) to see my website.
 Enjoy :heart:
 
 ## Info
