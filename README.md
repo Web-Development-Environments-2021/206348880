@@ -14,9 +14,11 @@ Enjoy :heart:
 
 ## Info
 :ok_hand: Fixed menu with hover effects<br />
-:ok_hand: Using Google Fonts instead of css deafaluts<br />
+:ok_hand: Using Google Fonts instead of css defaults<br />
 :ok_hand: Using diverse design elements - Hover transition (transforms), Icons, Emoji, Backgrounds Images<br />
 :ok_hand: Adding media - designed photos, Youtube<br />
+:ok_hand: Adding web icon page - instead of default<br />
+
 
 [Go To Top](#assignment1-GalAgas)
 
